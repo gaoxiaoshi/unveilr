@@ -1,7 +1,7 @@
 {
   "name": "unveilr",
   "author": "r3x5ur",
-  "version": "2.0.2",
+  "version": "2.0.3-alpha.0",
   "displayName": "一款小程序安全评估工具",
   "keywords": [
     "wxapkg",
@@ -27,7 +27,9 @@
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only src/index.ts",
     "run": "ts-node -r tsconfig-paths/register --transpile-only src/index.ts",
     "ts-node": "ts-node -r tsconfig-paths/register --transpile-only",
-    "build": "npx rollup -c --bundleConfigAsCjs"
+    "build": "npx rollup -c --bundleConfigAsCjs",
+    "pkg": "node scripts/pkg.js",
+    "release": "node scripts/release.js"
   },
   "dependencies": {
     "@babel/core": "^7.21.3",

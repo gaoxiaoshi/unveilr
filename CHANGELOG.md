@@ -1,5 +1,9 @@
 # 更改日志
 
+### [:bookmark:vv2.0.3-alpha.0 :loud_sound:2024-12-02](https://github.com/r3x5ur/unveilr/tree/vv2.0.3-alpha.0)
+- 🐛解决部分已知问题
+---
+
 ### [:bookmark:v2.0.2 :loud_sound:2023-05-20](https://github.com/r3x5ur/unveilr/tree/v2.0.2)
 * .DS_ Store is a hidden configuration file for Mac and should be ignored by @KelvinF97 in https://github.com/r3x5ur/unveilr/pull/108
 * :art: opt: Project structure adjustment by @r3x5ur in https://github.com/r3x5ur/unveilr/pull/109
